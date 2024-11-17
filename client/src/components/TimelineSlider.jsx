@@ -13,7 +13,7 @@ const TimelineSlider = ({ dateRange, setDateRange }) => {
         className="horizontal-slider"
         thumbClassName="slider-thumb"
         trackClassName="slider-track"
-        min={5}
+        min={-10000}
         max={2025}
         value={dateRange}
         onChange={handleSliderChange}
